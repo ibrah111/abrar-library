@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>مكتبة الضياء — Link</title>
+
+<style>
+  :root{
+    --bg:#efe7dd;
+    --card:#f7f2ee;
+    --accent:#e9dcca;
+    --text:#3b2b25;
+    --muted:#7a6458;
+    --button-radius:36px;
+    --max-width:420px;
+  }
+
+  html,body{
+    height:100%;
+    margin:0;
+    font-family: "Segoe UI", Tahoma, "Noto Nastaliq Urdu", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    background:linear-gradient(180deg,var(--bg), #f3ebe1);
+    color:var(--text);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  }
+
+  .wrap{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:48px 12px;
+    box-sizing:border-box;
+  }
+
+  .card{
+    width:100%;
+    max-width:var(--max-width);
+    background:transparent;
+    border-radius:20px;
+    box-shadow: 0 6px 18px rgba(60,40,20,0.06);
+    padding:28px 22px;
+  }
+
+  .header{
+    background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.25));
+    border-radius:18px;
+    padding:26px 18px 18px;
+    text-align:center;
+    position:relative;
+  }
+
+  .avatar{
+    width:112px;
+    height:112px;
+    border-radius:999px;
+    background:var(--card);
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 12px;
+    overflow:hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.06) inset, 0 6px 12px rgba(0,0,0,0.06);
+  }
+
+  .avatar img{
+    width:105%;
+    height:105%;
+    object-fit:cover;
+    display:block;
+    transform:translateY(-2px);
+  }
+
+  h1.title{
+    font-size:24px;
+    margin:6px 0 8px;
+    font-weight:700;
+    letter-spacing:0.4px;
+  }
+
+  p.subtitle{
+    margin:0;
+    color:var(--muted);
+    font-size:14px;
+  }
+
+  .links{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+  }
+
+  .btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    background:var(--card);
+    border-radius:var(--button-radius);
+    padding:16px 20px;
+    text-decoration:none;
+    color:var(--text);
+    font-weight:600;
+    box-shadow: 0 2px 8px rgba(20,10,6,0.04);
+    transition:transform .12s ease, box-shadow .12s ease;
+    border: 1px solid rgba(0,0,0,0.04);
+  }
+
+  .btn:active{ transform:translateY(1px); }
+  .btn:hover{ box-shadow: 0 8px 18px rgba(40,20,10,0.06); }
+
+  .btn .label{
+    flex:1;
+    text-align:center;
+    font-size:16px;
+  }
+
+  .footer{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    align-items:center;
+    padding-top:18px;
+    border-top: 1px solid rgba(0,0,0,0.03);
+  }
+
+  .icon-btn{
+    width:42px;
+    height:42px;
+    border-radius:10px;
+    background:transparent;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow: none;
+    border: none;
+  }
+
+  .icon-svg{
+    width:22px;
+    height:22px;
+    fill:var(--text);
+    opacity:0.95;
+  }
+
+  @media (max-width:420px){
+    .avatar{ width:96px; height:96px; }
+    h1.title{ font-size:20px; }
+    .card{ padding:20px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+
+    <div class="header">
+      <div class="avatar" aria-hidden="true">
+        <!-- اسم الصورة الحقيقي -->
+        <img src="46d6a896-0b56-4cbf-9bda-11d4a69ed450.jpeg" alt="شعار مكتبة الضياء">
+      </div>
+
+      <h1 class="title">مكتبة الضياء</h1>
+      <p class="subtitle">القراءة ملاذٌ يصنع لنا لحظات لا يصنعها العالم... ✨📚</p>
+
+      <div class="links">
+        <a class="btn" href="https://wa.me/967738821418" target="_blank" rel="noopener">
+          <span class="label">WhatsApp</span>
+        </a>
+
+        <a class="btn" href="https://www.instagram.com/aldiaa_library?igsh=cGZsOHRzM2hpY2cz" target="_blank" rel="noopener">
+          <span class="label">Instagram</span>
+        </a>
+
+        <a class="btn" href="https://t.me/aldiaa_library" target="_blank" rel="noopener">
+          <span class="label">Telegram</span>
+        </a>
+
+        <a class="btn" href="https://www.facebook.com/share/1FVxF41Ujx/" target="_blank" rel="noopener">
+          <span class="label">Facebook</span>
+        </a>
+
+        <a class="btn" href="https://intelligent-dove-nm3ntz.mystrikingly.com/" target="_blank" rel="noopener">
+          <span class="label">الموقع الإلكتروني</span>
+        </a>
+      </div>
+
+      <div class="footer" aria-hidden="true">
+        <a href="https://wa.me/967738821418" class="icon-btn" aria-label="WhatsApp" target="_blank">
+          <svg class="icon-svg" viewBox="0 0 24 24"><path d="M12.04 2C6.48 2 2 6.48 2 12.04c0 2.12.66 4.08 1.78 5.73L2 22l4.45-1.15A9.94 9.94 0 0012.04 22c5.56 0 10.04-4.48 10.04-9.96C22.08 6.48 17.6 2 12.04 2zm5.45 13.32c-.24.68-1.42 1.36-1.96 1.45-.4.07-1.05.1-2.21-.26-2.07-.62-3.7-2.52-3.84-2.68-.14-.16-1.36-1.56-1.36-3A3.07 3.07 0 019.9 9.4c.24-.38.35-.46.64-.46.28 0 .56.01.8.01.26 0 .6-.03.92.68.33.73 1.08 2.5 1.17 2.69.1.2.17.44.03.7-.14.26-.22.42-.44.65-.22.23-.46.5-.62.67-.18.19-.36.3-.09.59.26.28 1.17 1.92 2.52 3.12 1.74 1.5 2.06 1.17 2.43 1.09.37-.08 1.2-.5 1.36-.99.16-.49.16-.9.11-.99z"/></svg>
+        </a>
+
+        <a href="https://www.instagram.com/aldiaa_library?igsh=cGZsOHRzM2hpY2cz" class="icon-btn" aria-label="Instagram" target="_blank">
+          <svg class="icon-svg" viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm8 3h-6a1 1 0 000 2h6a1 1 0 000-2zM12 8.5A3.5 3.5 0 1015.5 12 3.5 3.5 0 0012 8.5z"/></svg>
+        </a>
+
+        <a href="https://www.facebook.com/share/1FVxF41Ujx/" class="icon-btn" aria-label="Facebook" target="_blank">
+          <svg class="icon-svg" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.5 9.9v-7H8v-3h2.5V9.2c0-2.5 1.5-3.9 3.7-3.9 1.07 0 2.2.19 2.2.19v2.4h-1.23c-1.21 0-1.59.76-1.59 1.54V12H19l-.5 3h-2.2v7A10 10 0 0022 12z"/></svg>
+        </a>
+
+        <a href="https://t.me/aldiaa_library" class="icon-btn" aria-label="Telegram" target="_blank">
+          <svg class="icon-svg" viewBox="0 0 24 24"><path d="M21 3L3 10.5 8.5 12 10 21l3.5-5 5 3 1.5-14z"/></svg>
+        </a>
+
+        <a href="https://intelligent-dove-nm3ntz.mystrikingly.com/" class="icon-btn" aria-label="Website" target="_blank">
+          <svg class="icon-svg" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm-1 2v2.1A15.8 15.8 0 007.1 9H5.2A8 8 0 0111 4zm2 0a8 8 0 015.8 5H16.9A15.8 15.8 0 0013 4zM4.2 13h2A15.8 15.8 0 0011 14.9V17a8 8 0 01-6.8-4zM13 20v-2.1A15.8 15.8 0 0016.9 15h2.9A8 8 0 0113 20zM13 13V9a4 4 0 000 4z"/></svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
